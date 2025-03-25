@@ -52,11 +52,52 @@ div.logo {
   font-weight: bold;
 }
 
-/* HERO */
+/* HERO */  
 
 .hero {
   background-image: url(assets/hero-image.jpg);
   background-position: center center;
   width: 100%;
   height: 70vh;
+}
+.secao{
+  display:flex;
+  justify-content: center;
+  margin: 50px;
+  align-items: center;
+  flex-direction:column;
+  gap: 16px;
+}
+
+.secao h3{
+  color: var(--laranja)
+}
+.secao p{
+  font-size:16px;
+  line-height:145%;
+  font-style:normal;
+  font-weight:400;
+}
+.formulario{
+  background-color: var(--cinza);
+}
+main h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--marrom)
+}
+.pets{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  margin:20px;
+}
+.pets h3{
+  font-size:14px;
+  font-weight:400;
+  line-height:145%;
+  
 }
